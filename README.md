@@ -29,6 +29,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
+```
 html:
 
 <html>
@@ -142,7 +143,7 @@ urlpatterns = [
     path('Power/',views.power,name="Power"),
     path('',views.power,name="Power")
 ]
-
+```
 
 
 # SERVER SIDE PROCESSING:
